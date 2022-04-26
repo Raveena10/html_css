@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WHITE FEATHER | HOME</title>
+
+<link rel="stylesheet" href="body.css" type="text/css" />
+
+</head>
+
+<body>
+
+
+<iframe style="position:fixed;top:0vw;left:0px" src="advertise_home.html"
+height="100%" width="100%" name="myframe1"></iframe>
+
+
+
+<div style="background-color:#000" id="main_mk"> 
+
+<div id="mySidenav" class="sidenav">
+	
+    	<div id="nav-head">
+            	
+      <span style="font-size:1.5vw;position:absolute;top:2vw;left:3vw;color:white;height:5vw">	 			
+      
+      			<b>Home</b>
+       </span>
+            
+         </div>
+         
+         
+ 		 <a href="javascript:void(0)" class="closebtn" onclick 									="closeNav()">&times;</a>
+         
+         
+         
+ 		 <a target="myframe1" href="sub categories/electronics/divya work2/white  feather/homepage.html" >Electronic </a>
+ 		 <a target="myframe1" href="fashion_final(20 april)/fashion_main.html">Fashion</a>
+  		 <a target="myframe1" href="home and furnish/home & furnish/home1.html">Home & Furniture</a>
+ 		 <a target="myframe1" href="sub categories/Sports_Project/Home Page.html">Sports</a>
+ 		 <a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/home.html">Books</a>
+  		 <a target="myframe1" href="malay/home child.html">Children</a>
+  		 <a target="myframe1" href="#">Special Offers</a>
+         <hr style="border:0.5px solid #000;" />
+         <a target="myframe1" href="#">My Orders</a>
+         <a target="myframe1" href="#">My cart</a>
+         <a target="myframe1" href="#">My Wishlist</a>
+         <a target="myframe1" href="#">My Account</a>
+         <a target="myframe1" href="#" onclick="del()">Sign Out</a>
+        
+</div>
+
+
+
+
+<div id="main">
+	<div id="top-head" >
+			
+<!--/* search bar*/-->
+
+	<div>
+    	<input id="search_box"  type="search"  placeholder="search" />
+        
+        <div>
+        	<input id="search_button"  type="button" value="search" />
+        </div>
+    
+    
+    </div>
+
+
+          
+		<!--//mk-->
+        <a target="myframe1" href="../../project/final cart page.html">
+        <img id="cart" src="images/basket_logo.png" />
+        </a>
+
+		<!--/*WHITE FEATHER*/	-->	
+		<a  href="home.html" >
+				<span  id="white-feather">WHITE FEATHER
+				</span>
+		</a>
+
+		<!--/*Feather logo*/-->
+		<img  style="position:absolute;top:0.8vw; 					 					left:30vw;height:5vw" src="images/white feather logo.png" / >
+
+		<!--/* Log in and Sign up*/-->
+		<a style="font-size:2vw" target="myframe1" href="../../project/login.html" id="login" >LOG IN </a>
+				<span style="position:absolute;left:87vw;font-size:2vw" id="login">|
+                </span>
+
+		<a  target="myframe1" href="../../project/signup.html" style="position:absolute;left:89vw;font-size:2vw" id= 			 									"login">SIGN UP</a>
+        
+        
+    <p  style="position:absolute;left:81vw;font-size:1.2vw;top:3vw;color:#FFF" id="welcome">
+    
+    </p>
+    
+    
+    
+<script>
+window.onload=function()
+{
+		if(typeof(Storage)!=undefined)
+		{
+			if(localStorage.count)
+			{
+				var a=localStorage.count
+				var temp=localStorage.getItem("name1")
+				document.getElementById("welcome").innerHTML=temp;
+				
+			}
+		}
+	}
+function del()
+{
+		if(typeof(Storage)!=undefined)
+		{
+			if(localStorage.count)
+			{
+				count=count-1
+				var a=localStorage.count
+				var v=document.getElementById("welcome")
+				v.style.visibility="hidden"
+				var temp=localStorage.removeItem("name1")
+				var temp=localStorage.removeItem("id1")
+				var temp=localStorage.removeItem("pass1")
+				
+			}
+		}
+	}	
+</script>
+	
+   <!-- /*End of PAGE TITLE */-->
+    </div>
+
+	
+    <!--/* THREE STRIPS*/-->
+        <div>
+		  <img id="menu-icon" src="images/sidenav logo.png"   		 							onclick="openNav()" />
+		</div>
+
+
+	<!--/*CATEGORY BAR*/-->
+	<div class="navbar">
+		<b> 
+                <div id="dropdown">
+					
+		<a target="myframe1" href="sub categories/electronics/divya work2/white  feather/homepage.html" onclick="selected1()" >			
+        
+        <img id="ele_icon"  src="images/electronic logo.png" style="height: 5vw;position: absolute;top: 1vw;left: 3.8vw;">
+					
+  					<div style="position:absolute;top:5.8vw;font-size:1.7vw;left:2.5vw;">
+						
+    	Electronic  
+  					</div>
+			</a> 		
+   					<div class="dropdown-content" id= 			 								"dropdown-content-1">
+      		<a target="myframe1"  href="">Home Appliances</a>
+            <a target="myframe1"  href="#">Mobile and Tablets</a>
+            <a target="myframe1" target="myframe1" href="#">Camera and Speaker</a>
+            <a target="myframe1" href="#">Desktops and    		 												Laptops</a> 
+            <a target="myframe1" href="#">Home Automation</a>
+            <a target="myframe1" href="#">Personal and Health   	 										Care </a>
+            </div>
+        </div>
+                
+        <div id="dropdown">
+		<a  target="myframe1" href="fashion_final(20 april)/fashion_main.html" onclick="selected2()" >
+        
+        	<img id="fas_icon"  src="images/fashion.png" style="height: 5vw;position: absolute;top: 0.8vw;left:15.5vw;" >
+  					<div  style="position:absolute;top:5.8vw;left:16vw;font-size:1.7vw">
+                    	Fashion
+  					</div>
+                    
+              </a>
+   						 <div class="dropdown-content" id= 				 									"dropdown-content-2">
+      						<a target="myframe1" href="fashion_final(20 april)/fashion_men/fashion_men.html">Men</a>
+                            <a target="myframe1" href="fashion_final(20 april)/fashion_women/fashion_women.html">Women</a>
+     						<a target="myframe1" href="fashion_final(20 april)/fashion_kids/fashion_kids.html">Kids</a>
+                  </div>
+                </div>
+       
+       
+          <div  id="dropdown">
+<a target="myframe1" href="home and furnish/home & furnish/home1.html" onclick="selected3()" >			 
+
+ <img id="home_icon"  src="images/home_fur.png" style="height: 5vw;position: absolute;top: 0.8vw;left:31vw;">
+  					<div style="position:absolute;top:5.8vw;font-size:1.7vw;left:28vw;">
+                    	Home & Furniture
+  					</div>
+		    </a>
+   						<div class="dropdown-content" id=  			 										"dropdown-content-3">
+      					<a target="myframe1" href="#">Kitchen and Dinning</a>
+                            <a target="myframe1" href="#">Furniture</a>
+     						<a target="myframe1" href="#">Home Decors</a>
+                            <a target="myframe1" href="#">Tools and Hardware</a>
+       	    </div>
+         </div>
+          
+          
+          
+          
+          
+          
+          <div id="dropdown">
+     <a target="myframe1" href="sub categories/Sports_Project/Home Page.html" onclick="selected4()">     
+          
+          <img id="sport_icon"  src="images/sport.png" style="height:5.8vw;position:absolute;top:0vw;left:46vw;">
+  					
+                    <div style="position:absolute;top:5.8vw;left:48vw;font-size:1.7vw">
+                    	Sports
+  					</div>
+                
+            </a>   
+   						 <div class="dropdown-content" id="dropdown-content-4">
+      						<a target="myframe1" href="sub categories/Sports_Project/Cricket Page.html">Cricket</a>
+                            <a target="myframe1" href="sub categories/Sports_Project/Camping Page.html">Camping</a>
+     						<a target="myframe1" href="sub categories/Sports_Project/Badminton Page.html">Badminton</a>
+                       		<a target="myframe1" href="sub categories/Sports_Project/Basketball Page.html">Basketball</a>     
+            </div>
+        </div>
+          
+          
+          <div id="dropdown">
+    <a target="myframe1" href="malay/home child.html" onclick="selected5()">      
+          <img id="child_icon"  id="icon" src="images/baby_logo.png" style="height:5.2vw;position: absolute;top:0.5vw;left:60vw;">
+  					<div style="position:absolute;top:5.8vw;left:60vw;font-size:1.7vw">
+                    	Children
+  					</div>
+            </a>
+   						 <div class="dropdown-content" id="dropdown-content-5">
+      						<a target="myframe1" href="#">All Toys and Games</a>
+                            <a  target="myframe1" href="#">New Born baby products </a>
+     						<a target="myframe1" href="#">Stationery</a>
+                            <a target="myframe1" href="#">Baby Clothing</a>
+                            <a target="myframe1" href="#">Shoes</a>
+                            <a target="myframe1" href="#">School Bags</a>
+            </div>
+        </div>
+          
+          
+          
+          <div id="dropdown">
+         <a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/home.html" onclick="selected6()"> 
+           <img id="book_icon"  src="images/book_logo.png" style="height:5.2vw;position: absolute;top:0.5vw;left:73vw;">
+  			
+  					<div style="position:absolute;top:5.8vw;left:73vw;font-size:1.7vw">
+                    	Books
+  					</div>    
+            </a>
+   						 <div class="dropdown-content" id="dropdown-content-6">
+      						<a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/History Books 1.html">Histroy Books</a>
+                            <a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/Story Books 2.html">Story Books</a>
+     						<a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/Comics Books 3.html">Comics</a>
+                            <a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/School Books 4.html">School Books</a>
+                            <a target="myframe1" href="sub categories/Books final_(nimesh)/Books final/nimesh/Auto biography 5.html">Auto-Boigraphy</a>
+            </div>
+        </div>
+          
+          
+           <div id="dropdown">
+    <a target="myframe1" href="#" onclick="selected_main()">      
+           <img  src="images/special_offer_logo.png" style="height:7vw;position: absolute;top:-1vw;left:88vw;">
+  			
+  		   
+          <div style="position:absolute;top:5.8vw;left:85vw;font-size:1.7vw">
+                    	Special Offer
+	  </div>
+			 </a>		 
+        </div>
+        </b>
+		
+	</div><!--/*END OF CATEGORY BAR*/-->
+    
+    
+<!--    
+/* END OF MAIN TOP HEAD */-->
+</div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "15vw";
+  document.getElementById("top-head").style.marginLeft = "15vw";
+	document.getElementById("main").style.marginLeft = "15vw";
+	 document.body.style.backgroundColor = "rgba(0,0,0,0.6)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("top-head").style.marginLeft= "0";
+	document.getElementById("main").style.marginLeft = "0";
+	document.body.style.backgroundColor = "white";
+}
+
+function search_1()
+{
+	document.getElementById("search_button").style.visibility="visible";
+}
+
+
+
+
+function selected1()
+{
+	selected_main()
+	document.getElementById("ele_icon").style.backgroundColor="#008080";	
+}
+
+function selected2()
+{
+	selected_main()
+	document.getElementById("fas_icon").style.backgroundColor="#008080";	
+}
+
+function selected3()
+{
+	selected_main()
+	document.getElementById("home_icon").style.backgroundColor="#008080";	
+}
+
+function selected4()
+{
+	selected_main()
+	
+	document.getElementById("sport_icon").style.backgroundColor="#008080";	
+}
+
+function selected5()
+{
+	
+	selected_main()
+	document.getElementById("child_icon").style.backgroundColor="#008080";	
+}
+
+function selected6()
+{
+	selected_main()
+	document.getElementById("book_icon").style.backgroundColor="#008080";	
+	
+}
+
+
+
+function selected_main()
+{
+	document.getElementById("ele_icon").style.backgroundColor="";
+	document.getElementById("fas_icon").style.backgroundColor="";
+	document.getElementById("home_icon").style.backgroundColor="";
+	document.getElementById("sport_icon").style.backgroundColor="";
+	document.getElementById("child_icon").style.backgroundColor="";
+	document.getElementById("book_icon").style.backgroundColor="";		
+}
+</script>
+</body>	
+
+
+</html>
